@@ -43,9 +43,9 @@ pipeline:
                   timeout: ""
                   type: Plugin
           platform:
+            os: Windows
             arch: Amd64
-            os: Linux
           runtime:
-            spec: {}
             type: Cloud
+            spec: {}
         type: CI
